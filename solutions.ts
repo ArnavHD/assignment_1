@@ -124,7 +124,5 @@ const validateAgeAsync = async(age:number): Promise<string> =>{
     }
 }
 
-console.log(await validateAgeAsync(20));
-console.log(await validateAgeAsync(15));
 
 
